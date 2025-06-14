@@ -1,0 +1,59 @@
+1. Crea un proyecto Next.js:
+npx create-next-app floreria-nextjs
+cd floreria-nextjs
+
+2. Reemplaza-Copiar los archivos con el código proporcionado.
+3. Instala las dependencias necesarias:
+
+npm install
+
+4. Ejecuta el proyecto:
+npm run dev
+
+5. Abre tu navegador en http://localhost:3000
+
+landing page completa para una florería con:
+Menú de navegación responsive
+Banner principal atractivo
+Galería de productos estáticos
+Carrusel de productos destacados
+Sección "Acerca de"
+Footer con información de contacto
+Diseño moderno y responsive
+Puedes personalizar las imágenes reemplazando los archivos en la carpeta public/images/ y ajustar los colores y textos según tus necesidades.
+
+
+
+
+Estructura del Proyecto
+floreria-nextjs/
+├── public/
+│   ├── images/
+│   │   ├── banner.jpg
+│   │   ├── flower1.jpg
+│   │   ├── flower2.jpg
+│   │   ├── flower3.jpg
+│   │   ├── flower4.jpg
+│   │   ├── flower5.jpg
+│   │   ├── about.jpg
+│   │   └── logo.png
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Banner.js
+│   │   ├── Gallery.js
+│   │   ├── Slider.js
+│   │   ├── About.js
+│   │   └── Footer.js
+│   ├── pages/
+│   │   ├── index.js
+│   │   ├── _app.js
+│   │   └── _document.js
+│   ├── styles/
+│   │   ├── globals.css
+│   │   ├── Header.module.css
+│   │   ├── Banner.module.css
+│   │   ├── Gallery.module.css
+│   │   ├── Slider.module.css
+│   │   ├── About.module.css
+│   │   └── Footer.module.css
