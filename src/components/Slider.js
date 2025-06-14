@@ -23,7 +23,7 @@ export default function Slider({ flowers }) {
           className={styles.sliderTrack} 
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         >
-          {flowers.map((flower, index) => (
+          {flowers.map((flower) => ( // Eliminé el parámetro index no utilizado
             <div key={flower.id} className={styles.slide}>
               <img src={flower.image} alt={flower.name} />
               <div className={styles.slideContent}>
